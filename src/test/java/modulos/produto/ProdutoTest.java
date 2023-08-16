@@ -15,7 +15,7 @@ public class ProdutoTest {
     @BeforeEach
     public void BeforeEach(){
         baseURI = "http://165.227.93.41";
-        basePath = "/lojinha-bugada";
+        basePath = "/lojinha";
         this.token = given()
                 .contentType(ContentType.JSON)
                 .body(UsuarioDataFactory.criarUsuarioAdmistrador())
